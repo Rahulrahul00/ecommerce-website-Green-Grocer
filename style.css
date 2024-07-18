@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+
+}
+#navbar img{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#navbar img:hover{
+    width: 60px;
+    height: 60px;
+    
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    padding: 8px 80px;
+    box-shadow: 5px 5px 20px rgba(0, 0,0, 5);
+    background: linear-gradient(to left, #1e2220, #254f38, #30804a, #49b354, #86f26b);;
+    z-index: 1;
+}
+.navbar .navbar-brand{ 
+    font-size: 30px;
+    font-weight: 800;
+    color: #000801!important;
+    transition: 2S;
+}
+
+.navbar .navbar-brand:hover{ 
+    font-size: 30px;
+    font-weight: 800;
+    color: #ffffff!important;
+    transition: 1S;
+}
+
+#navbarSupportedContent a{
+    color: #ffffff;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+}
+#navbarSupportedContent a:hover{
+    /* border-bottom: 2px solid #a6f35d; */
+    font-size: 22px;
+    color: #8ff86f;
+    font-family: "Spicy Rice", serif;
+    
+}
+#navbarSupportedContent button{
+    width: 80px;
+    background-color: #fdfefd;
+    font-weight: 600;
+    border: 30px;
+    border-top-right-radius: 0px;
+    transition:0.5s;
+}
+#navbarSupportedContent button:hover{
+   color: #553636;
+   background-color: #8ff86f;
+   font-weight: 600;
+   border-top-right-radius: 10px;
+}
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+#home{
+    background-image: url(./images/slider1_1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#home h1{
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Spicy Rice", serif;
+    font-size: 90px;
+    letter-spacing: 2.9px;
+    transition: 1s;
+    text-shadow: 0px 1px 0px #000000,
+                 0px 2px 0px #000000;
+           
+                 
+
+}
+#home h1:hover{
+    color: #8ff86f;
+    cursor: pointer;
+    font-family: "Spicy Rice", serif;
+    font-size: 70px;
+    
+    transition: ease-in 0.8s;
+}
+
+
+
+/* about */
+
+#about{
+    background-color: #ffffff;
+    position: relative;
+    
+}
+#about img{
+    width: 350px;
+    height: 450px;
+    margin-top:15%;
+    
+}
+.content{
+    position: absolute;
+    width: 350px;
+    /* width: auto; */
+    height: 450px;
+    top: 81px;
+    bottom:0 ;
+    background-color: rgba(0, 0,0,0.5);
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+ 
+}
+.content:hover{
+    opacity: 1;
+    transition: 0.5s;
+    
+}
+.content h2{
+    font-size: 50px;
+    font-family:"Spicy Rice", serif;
+    color: #ffd30d;
+    margin-bottom:80%;
+    padding-left: 50px;
+    
+  
+
+}
+
+
+.content > *{
+    transform: translateY(50px);
+    transition:  0.6s;
+    
+}
+
+.content:hover > *{
+   
+    transform: translateY(0px);
+}
+
+
+#about h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+#about p{
+    font-family:"Monospace",sans-serif;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #626361;
+}
+/*****Products********/
+#product {
+    background: #e5e5e5;
+}
+#product h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 80px;
+
+}
+#product img{
+    width: 150px;
+    height: 150px;
+
+}
+.card{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background: #e5e5e5 ;
+    border: none ;
+    box-shadow: 15px 20px 20px rgba(0,0,0,0.3),
+                inset 4px 4px 10px #ffff;
+    border-radius: 20px ;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+    transition: 0.2s;
+}
+
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,0.3),
+                inset -4px -4px 10px #ffff;
+    transition: 0.2s;
+
+}
+#product a{
+    background: #5ccd39;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* contact  */
+
+#contact img{
+    width: 500px;
+    height: 100%;
+}
+.contact-img{
+    margin-top: 80px;
+    
+}
+.box{
+     width: 80%;
+     margin-top: 10px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+    border-color:  #3beb05;
+    
+}
+#contact textarea{
+    margin: 10px 0px;
+    height: 125px;
+    border-color:  #4eee1d;
+}
+
+
+
+#contact button{
+    width: 100px;
+    border: 30px;
+    font-weight: 600;
+    margin: 10px 0px;
+    background: #5ccd39;
+    color: #000000;
+    transition: 0.8s;
+}
+#contact button:hover{
+    box-shadow: 5px 10px 15px rgb(107, 236, 122);
+    color: #ffffff;
+   
+}
+
+@media only screen and (max-width: 555px) {
+
+    #about img{
+        width: 250px;
+        height: 350px;
+        margin: auto;
+        margin-bottom: 50px;
+        
+      
+        }
+
+       
+
+}
+
+@media only screen and (max-width: 991px){
+
+    #navbarSupportedContent a:hover{
+        border-bottom: 2px solid #ffffff;
+        font-size: 22px;
+        color: #111111;
+        font-family: "Spicy Rice", serif;
+        
+    }
+    
+}
+
