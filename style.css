@@ -194,8 +194,8 @@ section {
 }
 .card{
     position: relative;
-    width: 200px;
-    height: 100px;
+    width: 14%;
+    height: 50px;
     background: #e5e5e5 ;
     border: none ;
     box-shadow: 15px 20px 20px rgba(0,0,0,0.3),
@@ -204,8 +204,13 @@ section {
     overflow: hidden;
     justify-content: center;
     align-items: center;
-    margin: 20px 60px;
+    margin: 10px 10px;
     transition: 0.2s;
+}
+
+.row-cols-4>* {
+    flex: 0 0 auto;
+    width: 5%;
 }
 
 .card:hover{
