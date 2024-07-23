@@ -125,7 +125,7 @@ section {
     width: 350px;
     /* width: auto; */
     height: 450px;
-    top: 81px;
+    top: 90px;
     bottom:0 ;
     background-color: rgba(0, 0,0,0.5);
     display: flex;
@@ -226,6 +226,16 @@ section {
     background: #5ccd39;
     color: #ffffff;
     font-weight: 600;
+    transition: ease 0.5s;
+    border: 1px solid rgb(126, 125, 125);
+}
+
+#product a:hover{
+    background: #ffffff;
+    color: #000000;
+    font-weight: 600;
+    font-size: small;
+    transition: ease 0.5s;
 }
 
 /* contact  */
@@ -286,13 +296,15 @@ form{
 }
 
 .row  ul li:hover{
-    color: #198754;
-    text-shadow: 0px 0px 1px #26e319; /* Add a subtle blue shadow on hover */
+    color: #52b930;
+    text-shadow: 0px 0px 1px #26e319; 
 }
 ul li i:hover {
-    color: #198754; /* Change color to blue on hover */
-    text-shadow: 0px 0px 5px #26e319; /* Add a subtle blue shadow on hover */
+    color: #198754; 
+    text-shadow: 0px 0px 5px #26e319; 
   }
+
+ 
 
 
 @media only screen and (max-width: 555px) {
@@ -310,7 +322,7 @@ ul li i:hover {
 
 }
 
-@media only screen and (max-width: 991px){
+@media only screen and (max-width: 992px){
 
     #navbarSupportedContent a:hover{
         border-bottom: 2px solid #ffffff;
@@ -319,6 +331,12 @@ ul li i:hover {
         font-family: "Spicy Rice", serif;
         
     }
+
+   
+
+  
     
 }
+
+
 
