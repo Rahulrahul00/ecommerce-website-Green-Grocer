@@ -296,7 +296,7 @@ form{
 }
 
 .row  ul li:hover{
-    color: #52b930;
+    color: #198755;
     text-shadow: 0px 0px 1px #26e319; 
 }
 ul li i:hover {
@@ -313,6 +313,7 @@ ul li i:hover {
         width: 250px;
         height: 350px;
         margin: auto;
+        margin-left: 100px;
         margin-bottom: 50px;
         
       
@@ -337,6 +338,5 @@ ul li i:hover {
   
     
 }
-
 
 
