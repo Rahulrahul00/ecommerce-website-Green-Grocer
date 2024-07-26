@@ -171,7 +171,6 @@ section {
 
 #about p{
     font-family:"Monospace",sans-serif;
-    letter-spacing: 1px;
     line-height: 30px;
     font-weight: 300;
     color: #626361;
@@ -182,11 +181,13 @@ section {
 #product {
     background: #e5e5e5;
 }
+.pSub:hover{
+   border-bottom: solid #26e319;
+}
 #product h1{
     font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 500;
-    letter-spacing: 2px;
     margin-top: 80px;
 
 }
