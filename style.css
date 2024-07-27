@@ -176,6 +176,18 @@ section {
     color: #626361;
 }
 
+/* test  */
+.Flavors{
+    position: absolute;
+    top: 7rem;
+    transform: translateX(20%);
+    font-size: 3rem;
+    font-family:"Spicy Rice", serif;
+    color: #f5d505;
+   
+}
+
+
 
 /*****Products********/
 #product {
@@ -324,6 +336,39 @@ ul li i:hover {
 
 }
 
+
+@media only screen and (max-width: 394px) {
+
+    #about img{
+        width: 200px;
+        height: 250px;
+        margin: auto;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        
+      
+        }
+
+       
+
+}
+
+@media only screen and (max-width: 364px) {
+
+    #about img{
+        width: 10px;
+        height: 200px;
+    
+        margin-left: 50px;
+        margin-bottom: 50px;
+        
+      
+        }
+
+       
+
+}
+
 @media only screen and (max-width: 992px){
 
     #navbarSupportedContent a:hover{
@@ -340,4 +385,334 @@ ul li i:hover {
     
 }
 
+@media only screen and (max-width: 766px){
 
+    
+    .Flavors{
+        position: absolute;
+        top: 38rem;
+        transform: translateX(20%);
+        font-size: 3rem;
+        font-family:"Spicy Rice", serif;
+        color: #f5d505;
+       
+    }
+
+    
+       
+}
+
+@media only screen and (max-width: 768px){
+
+    #about img{
+        width: 320px;
+        height: 440px;
+        margin-bottom:40%;
+        
+        
+    }
+
+
+    
+    .Flavors{
+        position: absolute;
+        top: 40rem;
+        transform: translateX(20%);
+        font-size: 3rem;
+        font-family:"Spicy Rice", serif;
+        color: #f5d505;
+       
+    }
+
+    
+       
+}
+
+@media only screen and (max-width: 437px){
+
+    #about img{
+        width: 250px;
+        height: 340px;
+        margin-bottom:40%;
+        margin-left: 5em;
+        
+        
+    }
+
+}
+
+@media only screen and (max-width: 346px){
+
+    #about img{
+        width: 190px;
+        height: 290px;
+        margin-bottom:40%;
+        margin-left: 5em;
+        
+        
+    }
+
+}
+
+
+    @media only screen and (max-width: 554px){
+
+        
+        .Flavors{
+            position: absolute;
+            top: 32rem;
+            transform: translateX(70%);
+            font-size: 2.4rem;
+            font-family:"Spicy Rice", serif;
+            color: #f5d505;
+        
+        }
+
+        
+        
+    }
+
+    @media only screen and (max-width: 485px){
+
+        
+        .Flavors{
+            position: absolute;
+            top: 37rem;
+            transform: translateX(70%);
+            font-size: 2.4rem;
+            font-family:"Spicy Rice", serif;
+            color: #f5d505;
+        
+        }
+
+        
+        
+    }
+
+    @media only screen and (max-width: 446px){
+
+        
+        .Flavors{
+            position: absolute;
+            top: 41rem;
+            transform: translateX(70%);
+            font-size: 2.4rem;
+            font-family:"Spicy Rice", serif;
+            color: #f5d505;
+        
+        }
+
+        
+        
+    }
+
+    @media only screen and (max-width: 395px){
+
+        
+        .Flavors{
+            position: absolute;
+            top: 39rem;
+            left: 3px;
+            transform: translateX(70%);
+            font-size: 1.8rem;
+            font-family:"Spicy Rice", serif;
+            color: #f5d505;
+        
+        }
+
+        
+        
+    }
+
+    @media only screen and (max-width: 388px){
+
+        
+        .Flavors{
+            position: absolute;
+            top: 42rem;
+            left: 3px;
+            transform: translateX(70%);
+            font-size: 1.8rem;
+            font-family:"Spicy Rice", serif;
+            color: #f5d505;
+        
+        }
+
+        
+        
+    }
+
+    
+    @media only screen and (max-width: 388px){
+
+        
+        .Flavors{
+            position: absolute;
+            top: 42rem;
+            left: 3px;
+            transform: translateX(70%);
+            font-size: 1.8rem;
+            font-family:"Spicy Rice", serif;
+            color: #f5d505;
+        
+        }
+
+        
+        
+    }
+
+    @media only screen and (max-width: 343px){
+
+        
+        .Flavors{
+            position: absolute;
+            top: 45rem;
+            left: 3px;
+            transform: translateX(70%);
+            font-size: 1.8rem;
+            font-family:"Spicy Rice", serif;
+            color: #f5d505;
+        
+        }
+
+        
+        
+    }
+
+    @media only screen and (max-width: 321px){
+
+        
+        .Flavors{
+            position: absolute;
+            top: 47rem;
+            left: 3px;
+            transform: translateX(70%);
+            font-size: 1.8rem;
+            font-family:"Spicy Rice", serif;
+            color: #f5d505;
+        
+        }
+
+        
+        
+    }
+
+    @media only screen and (max-width: 290px){
+
+        
+        .Flavors{
+            position: absolute;
+            top: 48rem;
+            left: 3px;
+            transform: translateX(70%);
+            font-size: 1.8rem;
+            font-family:"Spicy Rice", serif;
+            color: #f5d505;
+        
+        }
+
+        
+        
+    }
+
+    @media only screen and (max-width: 289px){
+
+        
+        .Flavors{
+            position: absolute;
+            top: 50rem;
+            left: 3px;
+            transform: translateX(70%);
+            font-size: 1.8rem;
+            font-family:"Spicy Rice", serif;
+            color: #f5d505;
+        
+        }
+
+        
+        
+    }
+
+    @media only screen and (max-width: 279px){
+
+        
+        .Flavors{
+            position: absolute;
+            top: 52rem;
+            left: 3px;
+            transform: translateX(70%);
+            font-size: 1.3rem;
+            font-family:"Spicy Rice", serif;
+            color: #f5d505;
+        
+        }
+
+        #about img{
+            width: 170px;
+            height: 200px;
+            margin: auto;
+            margin-left: 34px;
+            margin-bottom: 50px;
+            
+          
+            }
+
+        
+        
+    }
+
+    @media only screen and (max-width: 265px){
+
+        
+        .Flavors{
+            position: absolute;
+            top: 56rem;
+            left: 3px;
+            transform: translateX(70%);
+            font-size: 1.3rem;
+            font-family:"Spicy Rice", serif;
+            color: #f5d505;
+        
+        }
+
+    
+    }
+
+    @media only screen and (max-width: 350px){
+      #home h1{
+        font-size: 80px;
+      }
+
+
+
+
+    }
+    
+    @media only screen and (max-width: 291px){
+        #home h1{
+          font-size: 40px;
+        }
+
+        #home h1:hover{
+            font-size: 30px;
+          }
+  
+  
+  
+  
+      }
+    @media only screen and (max-width: 264px){
+
+    .navbar .navbar-brand{
+
+        font-size: 20px;
+    }
+
+    .navbar .navbar-brand:hover{
+
+        font-size: 20px;
+    }
+  
+
+
+    }
