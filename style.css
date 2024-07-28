@@ -112,18 +112,24 @@ section {
 #about{
     background-color: #ffffff;
     position: relative;
+    margin-left: 0%;
+  
+    
     
 }
 #about img{
-    width: 350px;
+    width: 380px;
     height: 450px;
-    margin-top:15%;
+    margin-top:18%;
+    margin-left: 20%;
+    border-radius: 25px;
+    
+   
     
 }
-.content{
+/* .content{
     position: absolute;
     width: 350px;
-    /* width: auto; */
     height: 450px;
     top: 90px;
     bottom:0 ;
@@ -160,7 +166,7 @@ section {
 .content:hover > *{
    
     transform: translateY(0px);
-}
+} */
 
 
 #about h1{
@@ -187,7 +193,7 @@ section {
 #product h1{
     font-size: 50px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 500;
+    font-weight: 800;
     margin-top: 80px;
 
 }
@@ -308,14 +314,15 @@ ul li i:hover {
  
 
 
-@media only screen and (max-width: 555px) {
+@media only screen and (max-width: 880px) {
 
     #about img{
-        width: 250px;
-        height: 350px;
-        margin: auto;
+        width: 280px;
+        height: 380px;
+        margin-top: 20%;
         margin-left: 100px;
         margin-bottom: 50px;
+        
         
       
         }
@@ -324,7 +331,152 @@ ul li i:hover {
 
 }
 
-@media only screen and (max-width: 992px){
+
+@media (max-width: 467px) {
+
+    #about img{
+        width: 250px;
+        height: 350px;
+        margin-left: 100px;
+        
+        
+      
+        }
+
+}
+
+
+
+@media (max-width: 432px) {
+
+    #about img{
+        width: 230px;
+        height: 330px;
+        margin-left: 100px;
+        
+        
+      
+        }
+
+}
+@media (max-width: 382px) {
+
+    #about img{
+        width: 200px;
+        height: 300px;
+        margin-left: 80px;
+        
+        
+      
+        }
+
+}
+
+@media (max-width: 342px) {
+
+    #about img{
+        width: 190px;
+        height: 280px;
+        margin-left: 70px;
+        
+    }
+    #home h1{
+        font-size: 60px;
+        transition: 1s;
+    }
+    #home h1:hover{
+        font-size: 50px;
+        transition: 0.8s;
+    }
+
+
+}
+
+@media (max-width: 303px) {
+
+    #about img{
+        width: 170px;
+        height: 250px;
+        margin-left: 50px;
+        
+    }
+}
+
+@media (max-width: 270px) {
+
+    #about img{
+        width: 170px;
+        height: 250px;
+        margin-left: 40px;
+        
+    }
+
+    .navbar .navbar-brand{ 
+        font-size: 20px;
+        font-weight: 800;
+        color: #000801!important;
+        transition: 2S;
+    }
+    .navbar .navbar-brand:hover{ 
+        font-size: 20px;
+        font-weight: 800;
+        color: #ffffff!important;
+        transition: 2S;
+    }
+    .row  ul li{
+        font-size: 12px;
+        color: #6c757d;
+        
+    }
+}
+
+@media (max-width: 236px){
+
+    #about img{
+        width: 140px;
+        height: 200px;
+        margin-left: 30px;
+        
+    }
+    #home h1{
+        font-size: 40px;
+        transition: 1s;
+    }
+    #home h1:hover{
+        font-size: 30px;
+        transition: 0.8s;
+    }
+    #product h1{
+        font-size: 30px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 800;
+        margin-top: 80px;
+    
+    }
+
+    .navbar .navbar-brand{ 
+        font-size: 15px;
+        font-weight: 800;
+        color: #000801!important;
+        transition: 2S;
+    }
+    .navbar .navbar-brand:hover{ 
+        font-size: 15px;
+        font-weight: 800;
+        color: #ffffff!important;
+        transition: 2S;
+    }
+
+    
+
+}
+
+
+
+
+
+
+/* @media only screen and (max-width: 992px){
 
     #navbarSupportedContent a:hover{
         border-bottom: 2px solid #ffffff;
@@ -338,6 +490,8 @@ ul li i:hover {
 
   
     
-}
+} */
+
+
 
 
