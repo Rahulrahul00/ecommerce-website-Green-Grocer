@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.home{
+    --bs-gutter-x: -0.5rem !important ;
+   
+}
+
+
+
+
