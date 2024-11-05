@@ -25,7 +25,7 @@
     bottom: 0;
     padding: 8px 80px;
     box-shadow: 5px 5px 20px rgba(0, 0,0, 5);
-    background: linear-gradient(to left, #1e2220, #254f38, #30804a, #49b354, #86f26b);;
+    background: linear-gradient(to left, #1e2220, #254f38, #30804a, #49b354, #86f26b);
     z-index: 1;
 }
 .navbar .navbar-brand{ 
@@ -127,46 +127,7 @@ section {
    
     
 }
-/* .content{
-    position: absolute;
-    width: 350px;
-    height: 450px;
-    top: 90px;
-    bottom:0 ;
-    background-color: rgba(0, 0,0,0.5);
-    display: flex;
-    align-items: center;
-    opacity: 0;
-    transition: 0.5s;
- 
-}
-.content:hover{
-    opacity: 1;
-    transition: 0.5s;
-    
-}
-.content h2{
-    font-size: 50px;
-    font-family:"Spicy Rice", serif;
-    color: #f5d505;
-    margin-bottom:80%;
-    padding-left: 50px;
-    
-  
 
-}
-
-
-.content > *{
-    transform: translateY(50px);
-    transition:  0.6s;
-    
-}
-
-.content:hover > *{
-   
-    transform: translateY(0px);
-} */
 
 
 #about h1{
@@ -311,11 +272,6 @@ ul li i:hover {
     text-shadow: 0px 0px 5px #26e319; 
   }
 
-  
-
- 
-
-
 @media only screen and (max-width: 880px) {
 
     #about img{
@@ -325,14 +281,8 @@ ul li i:hover {
         margin-left: 100px;
         margin-bottom: 50px;
         
+ }
         
-      
-        }
-        
-  
-
-       
-
 }
 @media only screen and (max-width: 992px) {
 
@@ -359,8 +309,6 @@ ul li i:hover {
         }
 
 }
-
-
 
 @media (max-width: 432px) {
 
