@@ -27,6 +27,7 @@
     box-shadow: 5px 5px 20px rgba(0, 0,0, 5);
     background: linear-gradient(to left, #1e2220, #254f38, #30804a, #49b354, #86f26b);
     z-index: 1;
+   
 }
 .navbar .navbar-brand{ 
     font-size: 30px;
@@ -321,6 +322,8 @@ ul li i:hover {
       
         }
 
+        
+
 }
 @media (max-width: 382px) {
 
@@ -354,6 +357,15 @@ ul li i:hover {
     }
 
 
+}
+
+
+
+
+@media (max-width: 321px){
+    #navbar{
+        flex-direction: row;
+    }
 }
 
 @media (max-width: 303px) {
