@@ -435,14 +435,20 @@ ul li i:hover {
         background-color: transparent;
         border: none !important;
         outline: none !important;
-        border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
-        border-radius: var(--bs-navbar-toggler-border-radius);
-        transition: var(--bs-navbar-toggler-transition);
+        
     }
     .navbar-toggler-icon{
         width: 23px !important;
         height: 23px !important;
     } 
+    
+    .navbar-toggler:focus,
+    .navbar-toggler:active {
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important; /* This removes any shadow */
+}
 }
 
 
