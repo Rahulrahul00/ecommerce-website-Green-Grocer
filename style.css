@@ -286,7 +286,17 @@ ul li i:hover {
         margin-bottom: 50px;
         
  }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:active {
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important; /* This removes any shadow */
+
+ 
         
+}
 }
 @media only screen and (max-width: 992px) {
 
@@ -297,7 +307,16 @@ ul li i:hover {
         font-family: "Spicy Rice", serif;
         
     }
+    .navbar-toggler:focus,
+    .navbar-toggler:active {
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important; /* This removes any shadow */
 
+
+
+}
 }
 
 
