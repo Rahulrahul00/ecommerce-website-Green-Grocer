@@ -416,6 +416,13 @@ ul li i:hover {
     }
 }
 
+@media(max-width:426px){
+    #navbar{
+        padding: 8px 20px;
+        
+    }
+}
+
 
 
 
