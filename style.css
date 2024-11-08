@@ -27,6 +27,9 @@
     box-shadow: 5px 5px 20px rgba(0, 0,0, 5);
     background: linear-gradient(to left, #1e2220, #254f38, #30804a, #49b354, #86f26b);
     z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
    
 }
 .navbar .navbar-brand{ 
@@ -359,14 +362,34 @@ ul li i:hover {
 
 }
 
-
-
-
-@media (max-width: 321px){
-    #navbar{
+@media (max-width: 320px) {
+    #navbar {
+        padding: 8px 20px; 
+        display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #navbar img {
+        width: 50px; /* Reduce size for smaller screens */
+        height: 50px;
+    }
+
+    .navbar .navbar-brand {
+        font-size: 18px; /* Reduce font size for brand text */
+    }
+
+    #navbarSupportedContent button {
+        width: 60px; /* Reduce button width */
+        padding: 5px; /* Adjust padding for button */
+        font-size: 12px; /* Smaller font size for button */
     }
 }
+
+
+
+
 
 @media (max-width: 303px) {
 
