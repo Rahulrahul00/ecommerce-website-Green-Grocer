@@ -419,8 +419,30 @@ ul li i:hover {
 @media(max-width:426px){
     #navbar{
         padding: 8px 20px;
-        
+
     }
+    .navbar-toggler{
+        width: 40px;
+        height: 30px;
+        border: none !important;
+        outline: none !important;
+    }
+    .navbar-toggler {
+        padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+        font-size: var(--bs-navbar-toggler-font-size);
+        line-height: 1;
+        color: rgb(46, 138, 46) !important;
+        background-color: transparent;
+        border: none !important;
+        outline: none !important;
+        border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+        border-radius: var(--bs-navbar-toggler-border-radius);
+        transition: var(--bs-navbar-toggler-transition);
+    }
+    .navbar-toggler-icon{
+        width: 23px !important;
+        height: 23px !important;
+    } 
 }
 
 
