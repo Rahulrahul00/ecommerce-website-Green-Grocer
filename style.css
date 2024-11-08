@@ -362,6 +362,7 @@ ul li i:hover {
 
 }
 
+/* Navbar section  */
 @media (max-width: 320px) {
     #navbar {
         padding: 8px 20px; 
@@ -378,6 +379,34 @@ ul li i:hover {
 
     .navbar .navbar-brand {
         font-size: 18px; /* Reduce font size for brand text */
+    }
+
+    #navbarSupportedContent button {
+        width: 60px; /* Reduce button width */
+        padding: 5px; /* Adjust padding for button */
+        font-size: 12px; /* Smaller font size for button */
+    }
+}
+
+
+
+/* navbar section 375px */
+@media (max-width:376px) {
+    #navbar {
+        padding: 8px 20px; 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #navbar img {
+        width: 50px; /* Reduce size for smaller screens */
+        height: 50px;
+    }
+
+    .navbar .navbar-brand {
+        font-size: 20px; /* Reduce font size for brand text */
     }
 
     #navbarSupportedContent button {
